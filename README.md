@@ -1,18 +1,18 @@
-<h1>💳 Payment Application (ATM System Simulation)</h1>
+<h1>📌 Payment Application (ATM System Simulation)</h1>
 <p>
-  A layered <strong>Payment Application</strong> written in <strong>Embedded C</strong> that simulates the core logic of an <strong>ATM transaction system</strong>.
+  A layered <strong>Payment Application</strong> written in <strong>C</strong> that simulates the core logic of an <strong>ATM transaction system</strong>.
   It models the interaction between <strong>Card, Terminal, and Server</strong> modules — validating transactions, card details, and account balances.
 </p>
 
 <hr />
 
-<h2>🚀 Project Overview</h2>
+<h2>📌 Project Overview</h2>
 <p>
-  This project implements a <strong>console-based simulation</strong> of an embedded payment system that mimics the workflow of an ATM or POS device.
+  This project implements a <strong>console-based simulation</strong> of an embedded payment system that control the workflow of an ATM device.
   It is designed with a focus on <strong>modular programming</strong>, <strong>structured data flow</strong>, and <strong>secure transaction validation</strong>.
 </p>
 
-<h3>🎯 Objectives</h3>
+<h3>📌 Objectives</h3>
 <ul>
   <li>Develop a transaction processing system with <strong>card, terminal, and server modules</strong>.</li>
   <li>Ensure <strong>secure validation</strong> for card number, expiry, and account balance.</li>
@@ -22,7 +22,7 @@
 
 <hr />
 
-<h2>⚙️ System Architecture</h2>
+<h2>📌 System Architecture</h2>
 <pre><code>          ┌──────────────────────────┐
           │       Payment App        │
           │ ──────────────────────── │
@@ -38,7 +38,7 @@
 
 <hr />
 
-<h2>🧩 Features</h2>
+<h2>📌 Features</h2>
 <ul>
   <li>Card data input and validation (Name, PAN, Expiry Date).</li>
   <li>Transaction amount entry and verification against balance.</li>
@@ -50,43 +50,27 @@
 
 <hr />
 
-<h2>🧱 Project Structure</h2>
-<pre><code>payment_application/
-├── card/               # Card data and validation module
-├── terminal/           # Handles input, transaction date, and amount checks
-├── server/             # Account validation and transaction approval logic
-├── app/                # Main application logic
-├── inc/                # Header files
-├── src/                # Source implementations
-├── test/               # Unit tests and validation cases
-├── README.md
-└── .gitignore
-</code></pre>
-
-<hr />
-
-<h2>🔧 Technical Specifications</h2>
+<h2>📌 Technical Specifications</h2>
 <table>
   <thead>
     <tr><th>Component</th><th>Details</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Programming Language</strong></td><td>Embedded C</td></tr>
+    <tr><td><strong>Programming Language</strong></td><td> C</td></tr>
     <tr><td><strong>Toolchain</strong></td><td>GCC / Code::Blocks</td></tr>
     <tr><td><strong>System Type</strong></td><td>Console-based simulation (PC-hosted)</td></tr>
     <tr><td><strong>Architecture</strong></td><td>Layered (Card → Terminal → Server → App)</td></tr>
-    <tr><td><strong>OS</strong></td><td>Windows / Linux</td></tr>
   </tbody>
 </table>
 
 <hr />
 
-<h2>🧠 How It Works</h2>
+<h2>📌 How It Works</h2>
 <ol>
   <li><strong>Card Module:</strong>
     <ul>
       <li>Collects user card information (Name, PAN, Expiry Date).</li>
-      <li>Validates PAN format using Luhn algorithm (if implemented).</li>
+      <li>Validates PAN format using algorithm.</li>
       <li>Ensures card is not expired.</li>
     </ul>
   </li>
@@ -109,20 +93,20 @@
 
 <hr />
 
-<h2>📄 Example Run</h2>
+<h2>📌 Example Run</h2>
 <pre><code>----- Welcome to Payment Application -----
 Enter Card Holder Name: Mohaned Hossam
 Enter Card Expiry Date (MM/YY): 07/25
 Enter Primary Account Number: 4523487198236531
-Enter Transaction Date (DD/MM/YYYY): 18/10/2025
+Enter Transaction Date (DD/MM/YYYY): 18/10/2023
 Enter Transaction Amount: 200.00
-Transaction Approved ✅
+Transaction Approved 
 -----------------------------------------
 </code></pre>
 
 <hr />
 
-<h2>🧪 Testing &amp; Validation</h2>
+<h2>📌 Testing &amp; Validation</h2>
 <ul>
   <li>Tested with multiple valid and invalid card entries.</li>
   <li>Verified correct responses for expired cards and insufficient funds.</li>
@@ -132,7 +116,7 @@ Transaction Approved ✅
 
 <hr />
 
-<h2>🧰 Build &amp; Run Instructions</h2>
+<h2>📌 Build &amp; Run Instructions</h2>
 
 <h3>Requirements</h3>
 <ul>
@@ -140,25 +124,11 @@ Transaction Approved ✅
   <li>Command-line terminal</li>
 </ul>
 
-<h3>Steps</h3>
-<ol>
-  <li>Clone the repository:
-    <pre><code>git clone https://github.com/MOHANED01/Payment-Application.git</code></pre>
-  </li>
-  <li>Navigate to the project directory:
-    <pre><code>cd payment_application</code></pre>
-  </li>
-  <li>Compile the project:
-    <pre><code>gcc app/*.c card/*.c terminal/*.c server/*.c -o payment_app.exe</code></pre>
-  </li>
-  <li>Run the application:
-    <pre><code>./payment_app.exe</code></pre>
-  </li>
-</ol>
+
 
 <hr />
 
-<h2>🚀 Future Enhancements</h2>
+<h2>📌 Future Enhancements</h2>
 <ul>
   <li>Implement <strong>PIN authentication</strong> for user verification.</li>
   <li>Add <strong>file-based database</strong> for persistent transactions.</li>
@@ -168,25 +138,9 @@ Transaction Approved ✅
 
 <hr />
 
-<h2>📚 References</h2>
+<h2>📌 References</h2>
 <ul>
   <li>EGYFWD Embedded Systems Nanodegree – Payment System Project</li>
-  <li>ISO 8583 Financial Transaction Messaging Standard</li>
-  <li>ANSI X9.24 Card Payment Security Reference</li>
-  <li>GCC &amp; Code::Blocks IDE Documentation</li>
+ 
 </ul>
 
-<hr />
-
-<h2>👨‍💻 Author</h2>
-<p>
-  <strong>Mohaned Hossam</strong><br />
-  Embedded Software Engineer<br />
-  📧 <a href="mailto:mohanedtohamy444@gmail.com">mohanedtohamy444@gmail.com</a><br />
-  🔗 <a href="https://www.linkedin.com/in/mohaned-hossam-8593041b3">LinkedIn</a><br />
-  💻 <a href="https://github.com/MOHANED01">GitHub</a>
-</p>
-
-<hr />
-
-<p><strong>⭐ “Building secure and intelligent embedded payment systems through clean modular design.”</strong></p>
