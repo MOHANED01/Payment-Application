@@ -120,7 +120,7 @@ Transaction Approved
 
 <h3>Requirements</h3>
 <ul>
-  <li><strong>GCC compiler</strong> or <strong>Code::Blocks IDE</strong></li>
+  <li><strong>GCC compiler</strong> or <strong>Eclipse IDE</strong></li>
   <li>Command-line terminal</li>
 </ul>
 
