@@ -1,4 +1,4 @@
-<h1>📌 Payment Application (ATM System Simulation)</h1>
+<h1> Payment Application (ATM System Simulation)</h1>
 <p>
   A layered <strong>Payment Application</strong> written in <strong>C</strong> that simulates the core logic of an <strong>ATM transaction system</strong>.
   It models the interaction between <strong>Card, Terminal, and Server</strong> modules — validating transactions, card details, and account balances.
