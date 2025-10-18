@@ -57,7 +57,7 @@
   </thead>
   <tbody>
     <tr><td><strong>Programming Language</strong></td><td> C</td></tr>
-    <tr><td><strong>Toolchain</strong></td><td>GCC / Code::Blocks</td></tr>
+    <tr><td><strong>Toolchain</strong></td><td>GCC / Eclipse</td></tr>
     <tr><td><strong>System Type</strong></td><td>Console-based simulation (PC-hosted)</td></tr>
     <tr><td><strong>Architecture</strong></td><td>Layered (Card → Terminal → Server → App)</td></tr>
   </tbody>
